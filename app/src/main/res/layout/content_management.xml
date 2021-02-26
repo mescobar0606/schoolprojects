@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <ImageView
+        android:id="@+id/imghr"
+        android:layout_width="416dp"
+        android:layout_height="199dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/img2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/hr" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnInvoice"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="@string/create_invoice"
+                android:textAllCaps="false"
+                android:textColor="#0C0C0C"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:backgroundTint="#52DFD8D8" />
+
+            <Button
+                android:id="@+id/btnCalendar"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="@string/view_calendar"
+                android:textAllCaps="false"
+                android:textColor="#0C0C0C"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:backgroundTint="#52DFD8D8" />
+
+            <Button
+                android:id="@+id/btnCustomerInfo"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="@string/view_customer_information"
+                android:textAllCaps="false"
+                android:textColor="#0C0C0C"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:backgroundTint="#52DFD8D8" />
+
+            <Button
+                android:id="@+id/btnAvailability"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="@string/view_availability"
+                android:textAllCaps="false"
+                android:textColor="#0C0C0C"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:backgroundTint="#52DFD8D8" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

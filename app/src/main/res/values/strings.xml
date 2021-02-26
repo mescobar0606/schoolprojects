@@ -1,0 +1,298 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">RentaHernandezApplication</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="welcome">Welcome</string>
+    <string name="customer">Customer</string>
+    <string name="management">Management</string>
+    <string name="title_activity_management">ManagementActivity</string>
+    <string name="title_activity_customer">CustomerActivity</string>
+    <string name="view_gallery">View Gallery</string>
+    <string name="view_prices">View Prices</string>
+    <string name="book_rental">Book Rental</string>
+    <string name="contact_us">Contact Us</string>
+
+    <string name="hr_image">HR image</string>
+    <string name="img2">hr image</string>
+    <string name="create_invoice">Create Invoice</string>
+    <string name="add_pictures_to_the_gallery">Add Pictures to the Gallery</string>
+    <string name="view_calendar">View Calendar</string>
+    <string name="view_customer_information">View Customer Information</string>
+    <string name="view_availability">View Availibility</string>
+    <string name="hr_imag">hr imag</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="dessert_tables">Dessert Tables</string>
+    <string name="decorations">Decorations</string>
+    <string name="bounce_houses">Bounce Houses</string>
+    <string name="tables">Tables</string>
+    <string name="tents">Tents</string>
+    <string name="chairs">Chairs</string>
+    <string name="hrimage">hrimage</string>
+    <string name="password">Password:</string>
+    <string name="username">username</string>
+    <string name="Username">Username:</string>
+    <string name="please_login">Please Login</string>
+    <string name="login">Login</string>
+    <string name="Password">password</string>
+    <string name="title_activity_desserts">DessertsActivity</string>
+    <string name="title_activity_chairs">ChairsActivity</string>
+    <string name="title_activity_tents">TentsActivity</string>
+    <string name="title_activity_decorations">DecorationsActivity</string>
+    <string name="title_activity_tables">TablesActivity</string>
+    <string name="title_activity_bounce_houses">BounceHousesActivity</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="hrimg">hrimg</string>
+    <string name="price_list">Price List</string>
+    <string name="chair_1_each">Chair-------------------------------------------------------------------$1 each</string>
+    <string name="rentals_per_day_per_item_for_decorations_and_dessert_tables_price_varies_depending_on_design_and_quantity">Rentals per day per item. For decorations and dessert tables price varies depending on design and quantity.</string>
+    <string name="chair_1">Chair---------------------$1 each</string>
+    <string name="table_6ft_5_each">Table 6ft---------------------$5 each</string>
+    <string name="table_8ft_7_each">Table 8ft---------------------$7 each</string>
+    <string name="princess_bounce_house_100">Princess Bounce House --- $100</string>
+    <string name="sports_bounce_house_100">Sports Bounce House----$100</string>
+    <string name="slide_bounce_house_140">Slide Bounce House ------ $140</string>
+    <string name="tent_20ftx30ft_150">Tent 20ftx30ft-------------$150</string>
+    <string name="tent_20ftx20ft_120">Tent 20ftx20ft-----------------$120</string>
+    <string name="tent_20ftx40ft_170">Tent 20ftx40ft --------------- $170</string>
+    <string name="tent_lights_10">Tent Lights-------------------------$10</string>
+    <string name="decorations_100">Decorations --------------- $100+</string>
+    <string name="dessert_table_100">Dessert Table-------------------$100+</string>
+    <string name="book_with_us">Book with Us!</string>
+    <string name="hrimg1">hrimg</string>
+    <string name="name">name</string>
+    <string name="your_name1">Your Name:</string>
+    <string name="send_inquiry">Send Inquiry</string>
+    <string name="your_name">Your Name:</string>
+    <string name="your_email">Your Email:</string>
+    <string name="your_phone_number">Your Phone Number:</string>
+    <string name="i_am_interested_in_the_following_rental_iteams_please_include_quantities">I am interested in the following rental iteams: (Please include quantities).</string>
+    <string name="enter_items_of_interest">Enter Items of interest...</string>
+    <string name="hrimg3">hrimg3</string>
+    <string name="contact_us1">Contact Us!</string>
+    <string name="textview">TextView</string>
+    <string name="call_us_or_send_us_a_text_n_312_757_1065_n_217_721_0264_n_monday_sunday_8_00am_9_00am">Call us or send us a text: \n (312)-757-1065 \n (217)-721-0264 \n Monday-Sunday 8:00am - 9:00am</string>
+    <string name="send_us_an_email_n_rentahernandez2018_gmail_com">Send us an email: \n rentahernandez2018@gmail.com</string>
+    <string name="hrimg4">hrimg4</string>
+    <string name="hrimg5">hrimg5</string>
+    <string name="hrimg6">hrimg6</string>
+    <string name="hrimg7">hrimg7</string>
+    <string name="hrimg8">hrimg8</string>
+    <string name="hrimg10">hrimg10</string>
+    <string name="chairs1">Chairs</string>
+    <string name="we_ofer_a_single_style_of_foldable_white_chairs_n_weight_limit_250lbs_n">We ofer a single style of foldable white chairs. \n Weight limit: 250lbs \n</string>
+    <string name="chair">chair</string>
+    <string name="hrimg9">hrimg9</string>
+    <string name="tables1">Tables</string>
+    <string name="tables_6ft_n_fits_6_8_people">Tables 6ft \n Fits: 6 -8 people</string>
+    <string name="tables_6ft_n_fits_6_to_8_people">Tables 6ft \n Fits 6 to 8 people</string>
+    <string name="table6ft">table6ft</string>
+    <string name="tables_6ft">Tables 6ft \n Fit: 6 to 8 chairs</string>
+    <string name="table6f2">table6f2</string>
+    <string name="table6ft3">table6ft3</string>
+    <string name="table8ft1">table8ft1</string>
+    <string name="table8ft2">table8ft2</string>
+    <string name="tables_8ft">Tables 8ft \n Fit: 8 to 10 chairs</string>
+    <string name="hrimg11">hrimg11</string>
+    <string name="bounce_houses1">Bounce Houses</string>
+    <string name="sports_bounce_house_n_dimensions_l_13ft_w_13ft_h_15ft_n_weight_limit_900_lbs">Sports Bounce House \n Dimensions: L:13ft W:13ft H:15ft \n Weight limit:900 lbs</string>
+    <string name="we_offer_a_single_style_of_foldable_white_chairs_n_weight_limit_250lbs">We offer a single style of foldable white chairs \n weight limit: 250lbs</string>
+    <string name="sports_bounce_house_n_dimensions_l_13ft_w_13ft_h_15_n_weight_limit_900lbs">Sports Bounce House \n Dimensions: L:13ft W:13ft H:15 \n Weight limit: 900lbs</string>
+    <string name="bouncehousesports">bouncehousesports</string>
+    <string name="princess_bounce_house_n_dimensions_l_13ft_w_13ft_h_17_n_weight_limit_900lbs">Princess Bounce House \n Dimensions: L:13ft W:13ft H:17 \n Weight limit: 900lbs</string>
+    <string name="princessbouncehouse">princessbouncehouse</string>
+    <string name="slide_bounce_house_n_dimensions_l_32ft_w_12ft_h_16_n_weight_limit_900lbs">Slide Bounce House \n Dimensions: L:32ft W:12ft H:16 \n Weight limit: 900lbs</string>
+    <string name="slidebouncehouse">slidebouncehouse</string>
+    <string name="hrimg12">hrimg12</string>
+    <string name="tents2">Tents</string>
+    <string name="tent_20ftx20ft_n_fits_up_to_48_people">Tent 20ftx20ft \n Fits: up to 48 people</string>
+    <string name="_20x201">20x201</string>
+    <string name="_20x202">20x202</string>
+    <string name="_20x203">20x203</string>
+    <string name="tent_20ftx30ft_n_fits_up_to_80_people">Tent 20ftx30ft \n Fits: up to 80 people</string>
+    <string name="_20x301">20x301</string>
+    <string name="_20x302">20x302</string>
+    <string name="tent23">tent23</string>
+    <string name="_20x304">20x304</string>
+    <string name="_20x305">20x305</string>
+    <string name="tent_20ftx40ft_n_fits_up_to_100_people">Tent 20ftx40ft \n Fits: up to 100 people</string>
+    <string name="_20x401">20x401</string>
+    <string name="_20x402">20x402</string>
+    <string name="_20x403">20x403</string>
+    <string name="hrimg13">hrimg13</string>
+    <string name="dessert_tables1">Dessert Tables</string>
+    <string name="typically_includes_chocolate_cover_strawberries_marshmellows_pretzels_cake_pops_cupcakes_jello_and_fruit_n_for_special_request_and_to_discuss_quantity_contact_us">Typically includes chocolate cover strawberries, marshmellows, pretzels, cake pops, cupcakes, jello, and fruit. \n For special request and to discuss quantity contact us!</string>
+    <string name="dessert1">dessert1</string>
+    <string name="dessert2">dessert2</string>
+    <string name="dessert3">dessert3</string>
+    <string name="dessert4">dessert4</string>
+    <string name="dessert5">dessert5</string>
+    <string name="hrimg14">hrimg14</string>
+    <string name="decorations1">Decorations</string>
+    <string name="we_decorate_for_all_types_of_events_n_send_us_your_decoration_request_for_a_quote">We decorate for all types of events. \n Send us your decoration request for a quote!</string>
+    <string name="decoration2">decoration2</string>
+    <string name="decoration3">decoration3</string>
+    <string name="decoration4">decoration4</string>
+    <string name="decoration5">decoration5</string>
+    <string name="decoration6">decoration6</string>
+    <string name="decoration7">decoration7</string>
+    <string name="decoration8">decoration8</string>
+    <string name="decoration9">decoration9</string>
+    <string name="decoration10">decoration10</string>
+    <string name="decoration11">decoration11</string>
+    <string name="decoration12">decoration12</string>
+    <string name="decoration13">decoration13</string>
+    <string name="decoration14">decoration14</string>
+    <string name="decoration15">decoration15</string>
+    <string name="decoration16">decoration16</string>
+    <string name="hrimg15">hrimg15</string>
+    <string name="invoice">Invoice</string>
+    <string name="item">Item:</string>
+    <string name="quantity">Quantity:</string>
+    <string name="price_per_item">Price per item:</string>
+    <string name="subtotal">Subtotal:</string>
+    <string name="payment">Payment:</string>
+    <string name="balance">Balance:</string>
+    <string name="add_item">Add Item</string>
+    <string name="enter_price">Enter price</string>
+    <string name="enter_item_name">Enter item name</string>
+    <string name="enter_quantity">Enter quantity</string>
+    <string name="enter_subtotal">Enter subtotal</string>
+    <string name="enter_deposit_recieved">Enter deposit recieved</string>
+    <string name="enter_remaining_balance">Enter remaining balance</string>
+    <string name="save">Save</string>
+    <string name="enter_event_name">Enter event name</string>
+    <string name="event_name">Event name:</string>
+    <string name="enter_order_details">Enter order details</string>
+    <string name="enter_details">Enter details</string>
+    <string name="customer_information">Customer Information</string>
+    <string name="address">Address:</string>
+    <string name="email">Email:</string>
+    <string name="namecustomer">Name:</string>
+    <string name="phone_number_customer">Phone Number:</string>
+    <string name="hrimg16">hrimg16</string>
+    <string name="customername">Name:</string>
+    <string name="phone_number_Customer">Phone Number:</string>
+    <string name="email_Customer">Email:</string>
+    <string name="addresscustomer">Address</string>
+    <string name="enter_new_customer_s_information">Enter new customer\'s information:</string>
+    <string name="enter_new_customer_s_information2">Enter new customer\'s information</string>
+    <string name="full_name">Full Name:</string>
+    <string name="enter_customer_s_full_name">Enter customer\'s full name</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="enter_customer_s_phone_number">Enter customer\'s phone number</string>
+    <string name="email_address">Email address:</string>
+    <string name="enter_customer_s_email_address">Enter customer\'s email address</string>
+    <string name="addresscustomer1">Address:</string>
+    <string name="enter_customer_s_address">Enter customer\'s address</string>
+    <string name="add_customer">Add customer</string>
+    <string name="enter_customer_s_full_name2">Enter customer\'s full name</string>
+    <string name="customer_name">customer name</string>
+    <string name="customer_number">customer number</string>
+    <string name="customer_email">customer email</string>
+    <string name="customer_address1">customer address</string>
+    <string name="customer_address">customer address</string>
+    <string name="hrimg17">hrimg17</string>
+    <string name="client_s_information">Client\'s Information</string>
+    <string name="client_s_information1">Client\'s Information</string>
+    <string name="customer_s_information">Customer\'s Information</string>
+    <string name="view_customer_list">View Customer List</string>
+    <string name="add_customer2">Add Customer</string>
+    <string name="enter_information">Enter information</string>
+    <string name="enter_available_items_to_rent">Enter available items to rent:</string>
+
+</resources>

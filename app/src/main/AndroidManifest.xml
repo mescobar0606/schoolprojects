@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rentahernandezapplication">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RentaHernandezApplication.NoActionBar">
+        <activity android:name=".ViewAvailabilityActivity" />
+        <activity android:name=".ViewCustomerActivity" />
+        <activity android:name=".ViewCalendarActivity" />
+        <activity android:name=".CreateInvoiceActivity" />
+        <activity android:name=".ContactUsActivity" />
+        <activity android:name=".BookRentalActivity" />
+        <activity android:name=".PricesActivity" />
+        <activity
+            android:name=".BounceHousesActivity"
+            android:label="@string/title_activity_bounce_houses"
+            android:theme="@style/Theme.RentaHernandezApplication.NoActionBar" />
+        <activity
+            android:name=".TablesActivity"
+            android:label="@string/title_activity_tables"
+            android:theme="@style/Theme.RentaHernandezApplication.NoActionBar" />
+        <activity
+            android:name=".DecorationsActivity"
+            android:label="@string/title_activity_decorations"
+            android:theme="@style/Theme.RentaHernandezApplication.NoActionBar" />
+        <activity
+            android:name=".TentsActivity"
+            android:label="@string/title_activity_tents"
+            android:theme="@style/Theme.RentaHernandezApplication.NoActionBar" />
+        <activity
+            android:name=".ChairsActivity"
+            android:label="@string/title_activity_chairs"
+            android:theme="@style/Theme.RentaHernandezApplication.NoActionBar" />
+        <activity
+            android:name=".DessertsActivity"
+            android:label="@string/title_activity_desserts"
+            android:theme="@style/Theme.RentaHernandezApplication.NoActionBar" />
+        <activity
+            android:name=".ManagementLogIn"
+            android:label="ManagementLogIn"
+            android:theme="@style/Theme.RentaHernandezApplication.NoActionBar" />
+        <activity
+            android:name=".CustomerGallery"
+            android:label="CustomerGallery"
+            android:theme="@style/Theme.RentaHernandezApplication.NoActionBar" />
+        <activity
+            android:name=".CustomerActivity"
+            android:label="@string/title_activity_customer"
+            android:theme="@style/Theme.RentaHernandezApplication.NoActionBar" />
+        <activity
+            android:name=".ManagementActivity"
+            android:label="@string/title_activity_management"
+            android:theme="@style/Theme.RentaHernandezApplication.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.RentaHernandezApplication.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO" />
+
+                <data android:scheme="mailto" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
